@@ -1,0 +1,86 @@
+name = uttheme 7.x-1.x-dev
+description = A Bootstrap Sub-theme, Garuda theme is a community initiative project from Drupal Indonesia.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[header]         = 'Top bar'
+
+;regions[highlighted]    = 'Highlighted'
+
+;regions[page_top1]      = 'Page top left'
+;regions[page_top2]      = 'Page top middle left'
+;regions[page_top3]      = 'Page top middle right'
+;regions[page_top4]      = 'Page top right'
+
+;regions[gallery1]       = 'Gallery left'
+;regions[gallery2]       = 'Gallery middle'
+;regions[gallery3]       = 'Gallery right'
+
+regions[help]           = 'Help'
+
+regions[sidebar_first]  = 'Primary'
+regions[content]        = 'Content'
+regions[sidebar_second] = 'Secondary'
+
+;regions[page_bottom1]    = 'Page bottom left'
+;regions[page_bottom2]    = 'Page bottom middle left'
+;regions[page_bottom3]    = 'Page bottom middle right'
+;regions[page_bottom4]    = 'Page bottom right'
+
+;regions[footer_top1]     = 'Footer top upper left'
+;regions[footer_top2]     = 'Footer top upper right'
+;regions[footer_top3]     = 'Footer top lower left'
+;regions[footer_top4]     = 'Footer top lower right'
+
+regions[footer]          = 'Footer'
+
+;regions[copyright]       = 'Copyright'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+;
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+;
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.
