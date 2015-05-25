@@ -1,4 +1,4 @@
-name = uttheme 7.x-1.x-dev
+name = srstheme 7.x-1.x-dev
 description = A Bootstrap Sub-theme, Garuda theme is a community initiative project from Drupal Indonesia.
 core = 7.x
 base theme = bootstrap
