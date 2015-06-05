@@ -545,6 +545,7 @@ display: inline-block ;
     img {
 		width: 100% !important;
 		height: 25px;
+		border: 2px solid #000; 
 	}
 }
 .recaptcha_only_if_image {
@@ -562,7 +563,7 @@ display: inline-block ;
 	  position:absolute; 
 	  margin-left:360px; 
 	  margin-top:-65px;
-
+	   
 }
 /*.recaptcha_only_if_image 
      a {background:url('../images/audio.png') 

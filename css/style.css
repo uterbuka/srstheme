@@ -8632,16 +8632,17 @@ label {
 #user-register-form #recaptcha_image img {
   width: 100% !important;
   height: 25px;
+  border: 2px solid #000;
 }
-/* line 550, ../sass/srstheme/style.scss */
+/* line 551, ../sass/srstheme/style.scss */
 #user-register-form .recaptcha_only_if_image {
   font-size: 0px !important;
 }
-/* line 553, ../sass/srstheme/style.scss */
+/* line 554, ../sass/srstheme/style.scss */
 #user-register-form #recaptcha_image {
   margin-bottom: 10px;
 }
-/* line 554, ../sass/srstheme/style.scss */
+/* line 555, ../sass/srstheme/style.scss */
 #user-register-form .recaptcha_get_another_captcha
 a {
   background: url("../images/reload.png") no-repeat;
@@ -8654,39 +8655,39 @@ a {
   margin-left: 360px;
   margin-top: -65px;
 }
-/* line 582, ../sass/srstheme/style.scss */
+/* line 583, ../sass/srstheme/style.scss */
 #user-register-form #recaptcha_response_field {
   width: 135px;
   float: left;
   margin-left: -355px;
 }
-/* line 587, ../sass/srstheme/style.scss */
+/* line 588, ../sass/srstheme/style.scss */
 #user-register-form .recaptcha_get_another_captcha {
   clear: left;
 }
 
-/* line 589, ../sass/srstheme/style.scss */
+/* line 590, ../sass/srstheme/style.scss */
 .recaptcha_help {
   display: none;
 }
 
 /* form cilik depan */
-/* line 594, ../sass/srstheme/style.scss */
+/* line 595, ../sass/srstheme/style.scss */
 #recaptcha_image {
   width: 100% !important;
   margin-bottom: 10px !important;
 }
-/* line 597, ../sass/srstheme/style.scss */
+/* line 598, ../sass/srstheme/style.scss */
 #recaptcha_image img {
   width: 100% !important;
 }
 
-/* line 604, ../sass/srstheme/style.scss */
+/* line 605, ../sass/srstheme/style.scss */
 #recaptcha_image {
   margin-bottom: 10px;
 }
 
-/* line 605, ../sass/srstheme/style.scss */
+/* line 606, ../sass/srstheme/style.scss */
 .recaptcha_get_another_captcha a {
   background: url("../images/reload.png") no-repeat;
   width: 22px;
@@ -8712,7 +8713,7 @@ a {
  
 }
 */
-/* line 631, ../sass/srstheme/style.scss */
+/* line 632, ../sass/srstheme/style.scss */
 .recaptcha_only_if_image {
   display: none !important;
 }
