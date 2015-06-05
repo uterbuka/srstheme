@@ -491,4 +491,143 @@ Copyright
 }
 
 
+/* Style Halaman Pendaftaran */
+.page-header {
+	position:absolute;
+	padding:15px;
+	top:0;
+	left:25%;
+	font-size:14px;
+	z-index:99;
+	border:1px solid #333;
+	background:#ffffff;
+}
+#user-register-form {
+width: 800px;
+margin: 0 auto;
+padding: 50px 20px 20px 70px;
+border: 1px solid #999999;
+margin-top: 65px !important;
+}
+#form-control form-text required{
+width:40% ;
+}
 
+label {
+width:150px ;
+vertical-align: top;   
+}
+
+#edit-mail { 
+width: 200px ;
+}
+
+#edit-field-dp-nama-lengkap-und-0-value {
+width: 500px ;
+}
+
+
+.form-control {
+    display: inline-block ;
+}
+
+.form-radios {
+width: 550px;
+display: inline-block ;
+}
+
+/* form gede */
+#user-register-form {
+#recaptcha_image {
+	width: 200px !important;
+	float:left;
+	margin-left:155px;
+    img {
+		width: 100% !important;
+		height: 25px;
+	}
+}
+.recaptcha_only_if_image {
+	font-size:0px !important
+}
+#recaptcha_image {margin-bottom:10px}
+.recaptcha_get_another_captcha 
+   a{background:url('../images/reload.png') 
+      no-repeat;
+	  width:22px; 
+	  height:22px;
+	  padding-left:30px; 
+	  color:#fff;
+	  text-decoration:none; 
+	  position:absolute; 
+	  margin-left:360px; 
+	  margin-top:-65px;
+
+}
+/*.recaptcha_only_if_image 
+     a {background:url('../images/audio.png') 
+	 no-repeat;
+	 width:24px; 
+	 height:24px;
+	 padding-left:30px; 
+	 color:#fff;
+	 text-decoration:none;
+	 position:absolute; 
+	 margin-left:380px; 
+	 margin-top:-65px; 
+	 display:none !important
+
+}
+*/
+#recaptcha_response_field {
+  width:135px; 
+  float:left; 
+  margin-left:-355px
+}
+.recaptcha_get_another_captcha {clear:left}
+}
+.recaptcha_help {
+  display:none;
+}
+
+/* form cilik depan */
+#recaptcha_image {
+	width:100% !important;
+	margin-bottom: 10px !important;  
+	 img {
+		width: 100% !important;
+		
+	}
+}
+.recaptcha_only_if_image {
+}
+#recaptcha_image {margin-bottom:10px}
+.recaptcha_get_another_captcha a{background:url('../images/reload.png') 
+    no-repeat;
+    width:22px; 
+    height:22px;
+    padding-left:30px; 
+    color:#fff;
+    text-decoration:none;
+    position: absolute;
+    margin-left: 195px;
+    margin-top: -25px;
+
+}
+/*.recaptcha_only_if_image a {background:url('../images/audio.png') 
+   no-repeat; 
+   width:24px; 
+   height:24px;
+   padding-left:30px; 
+   color:#fff;
+   text-decoration:none;
+   position: absolute;
+   margin-left: 215px;
+   margin-top: -25px;
+ 
+}
+*/
+
+.recaptcha_only_if_image {
+      display:none !important
+	  }
