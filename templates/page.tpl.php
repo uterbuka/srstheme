@@ -16,7 +16,7 @@
       <?php endif; ?>
     </div>
   </div>
-  
+
 
   <div class="container-full navbar-full">
     <div class="container">
@@ -67,7 +67,7 @@
       <?php endif; ?>
 
       <section<?php print $content_column_class; ?>>
-        <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>
+        <!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> -->
         <a id="main-content"></a>
         <?php print render($title_prefix); ?>
         <?php if (!empty($title)): ?>
